@@ -1,49 +1,454 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food and Restaurant details</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <title>Notes</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color:#FA3939;">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-        <a class="navbar-brand" href="#">
-          <img src="./Img/logo.png" alt="Sample photo" width=200px height=50px></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-default" style="background-color: #FA3939";>
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Select Service
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="./Note.html" >Notes</a>
-                <a class="dropdown-item" href="#">Restaurant</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+        <a class="navbar-brand" href="#"></a>
+        <img src="./Img/logo.png" alt="Sample photo" width=200px height=50px></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <section>
+    <div class="row">
+
+      <!-- first section start -->
+      <div class="col-6 col-md-4">
+        <div class="thumbnail">
+          <img src="./pushpam.jpg" class="img-responsive" alt="">
         </div>
-      </nav>
+      </div>
+      <!-- first section end  -->
+
+
+
+      <!-- second section start  -->
+      <div class="col-6 col-md-4">
+        <h3>Pushpam's</h3>
+
+        <div class="row">
+          <div class="col-sm-2">
+            <span class="label label-success">5.0 <span class="glyphicon glyphicon-star"></span></span>
+          </div>
+
+          <div class="col-sm-7">
+            <!-- <strong>2,421 Ratings & Reviews</strong> -->
+          </div>
+
+        </div>
+
+        <div>
+          <h4>Opening Time:-11:00AM<br>Closing Time:-11:00PM</h4>
+        </div>
+
+        <div>
+
+          <h5><span class="glyphicon glyphicon-calendar"></span><strong> Address:-</strong>Pillaiyar koil Street, Potheri,maraimalainagar,Kattankolathur,
+             Chennai, Tamil Nadu 603203, India </a></h5>
+
+          <h5><span class="glyphicon glyphicon-tag"></span><strong> Contact Details:<br></strong><strong> Owner
+              Name:-</strong> - <br> <strong> Mobile No.:-</strong>-</h5>
+
+        </div>
+        <div>
+          <h4 style="padding-top: 40px;"><a
+              href="https://www.google.com/maps/place/Pushpam's/@12.820562,80.0408552,15.04z/data=!4m5!3m4!1s0x0:0xc762211a89b26168!8m2!3d12.8203285!4d80.0408338?hl=en"
+              style="text-decoration:none;">Find Location </a></h4>
+        </div>
+      </div>
+      <!-- second section end  -->
+
+
+      <!-- third section start  -->
+      <div class="col-6 col-md-4">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15561.419740343234!2d80.0408398!3d12.8203258!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc762211a89b26168!2sPushpam&#39;s!5e0!3m2!1sen!2som!4v1619634707642!5m2!1sen!2som"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <!-- third section end -->
+    </div>
+  </section>
+
+
+
+  <section>
+    <div class="row">
+
+      <!-- first section start -->
+      <div class="col-6 col-md-4">
+        <div class="thumbnail">
+          <img src="./ghost pepper.jpg" class="img-responsive" alt="">
+        </div>
+      </div>
+      <!-- first section end  -->
+
+
+
+      <!-- second section start  -->
+      <div class="col-6 col-md-4">
+        <h3>Ghost Pepper - Chicken wings and poutine shop</h3>
+
+        <div class="row">
+          <div class="col-sm-2">
+            <span class="label label-success">4.9 <span class="glyphicon glyphicon-star"></span></span>
+          </div>
+
+          <div class="col-sm-7">
+            <!-- <strong>2,421 Ratings & Reviews</strong> -->
+          </div>
+
+        </div>
+
+        <div>
+          <h4>Opening Time:-11:00AM<br>Closing Time:-10:00PM</h4>
+        </div>
+
+        <div>
+
+          <h5><span class="glyphicon glyphicon-calendar"></span><strong> Address:-</strong>Unnamed Road, Potheri, Kattankulathur,
+             Chennai, Tamil Nadu 603203, India </a></h5>
+
+          <h5><span class="glyphicon glyphicon-tag"></span><strong> Contact Details:<br></strong><strong> Owner
+              Name:-</strong> na <br> <strong> Mobile No.:-</strong> none</h5>
+
+        </div>
+        <div>
+          <h4 style="padding-top: 40px;"><a
+              href="https://goo.gl/maps/XWf36CP6GUZPRkpQ6"
+              style="text-decoration:none;">Find Location </a></h4>
+        </div>
+      </div>
+      <!-- second section end  -->
+
+
+      <!-- third section start  -->
+      <div class="col-6 col-md-4">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.3563536885936!2d80.03893991525358!3d12.820233990955316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f7966b7e299d%3A0xfd0bb7d6eb1cbe2e!2sGhost%20Pepper%20-%20Chicken%20wings%20and%20poutine%20shop!5e0!3m2!1sen!2som!4v1619633082147!5m2!1sen!2som"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <!-- third section end -->
+    </div>
+  </section>
+
+
+
+
+  <section>
+    <div class="row">
+
+      <!-- first section start -->
+      <div class="col-6 col-md-4">
+        <div class="thumbnail">
+          <img src="./rajasthani.jpg" class="img-responsive" alt="">
+        </div>
+      </div>
+      <!-- first section end  -->
+
+
+
+      <!-- second section start  -->
+      <div class="col-6 col-md-4">
+        <h3>Rajasthani Hotel</h3>
+
+        <div class="row">
+          <div class="col-sm-2">
+            <span class="label label-success">4.6 <span class="glyphicon glyphicon-star"></span></span>
+          </div>
+
+          <div class="col-sm-7">
+            <!-- <strong>2,421 Ratings & Reviews</strong> -->
+          </div>
+
+        </div>
+
+        <div>
+          <h4>Opening Time:-9:30AM<br>Closing Time:-9:30PM</h4>
+        </div>
+
+        <div>
+
+          <h5><span class="glyphicon glyphicon-calendar"></span><strong> Address:-</strong>Potheri, Kattankulathur, Tamil Nadu 603203, India</a></h5>
+
+          <h5><span class="glyphicon glyphicon-tag"></span><strong> Contact Details:<br></strong><strong> Owner
+              Name:-</strong> - <br> <strong> Mobile No.:-</strong> +91 98848 81775</h5>
+
+        </div>
+        <div>
+          <h4 style="padding-top: 40px;"><a
+              href="https://g.page/rajasthani-hotel?share"
+              style="text-decoration:none;">Find Location </a></h4>
+        </div>
+      </div>
+      <!-- second section end  -->
+
+
+      <!-- third section start  -->
+      <div class="col-6 col-md-4">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15561.460772889892!2d80.036826!3d12.8196619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc4acdbb324f9b480!2sRajasthani%20Hotel!5e0!3m2!1sen!2som!4v1619635225279!5m2!1sen!2som"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <!-- third section end -->
+    </div>
+  </section>
+
+
+
+
+
+  <section>
+    <div class="row">
+
+      <!-- first section start -->
+      <div class="col-6 col-md-4">
+        <div class="thumbnail">
+          <img src="./realfood1.jpg" class="img-responsive" alt="">
+        </div>
+      </div>
+      <!-- first section end  -->
+
+
+
+      <!-- second section start  -->
+      <div class="col-6 col-md-4">
+        <h3>Real Food Mall</h3>
+
+        <div class="row">
+          <div class="col-sm-2">
+            <span class="label label-success">3.6 <span class="glyphicon glyphicon-star"></span></span>
+          </div>
+
+          <div class="col-sm-7">
+            <!-- <strong>2,421 Ratings & Reviews</strong> -->
+          </div>
+
+        </div>
+
+        <div>
+          <h4>Opening Time:-11:00AM<br>Closing Time:-11:00PM</h4>
+        </div>
+
+        <div>
+
+          <h5><span class="glyphicon glyphicon-calendar"></span><strong> Address:-</strong>Pillayar Koil St,
+            Potheri, Kattankulathur, Tamil Nadu 603203 </a></h5>
+
+          <h5><span class="glyphicon glyphicon-tag"></span><strong> Contact Details:<br></strong><strong> Owner
+              Name:-</strong>-<br> <strong> Mobile No.:-</strong> +91 80560 70976</h5>
+
+        </div>
+        <div>
+          <h4 style="padding-top: 40px;"><a
+              href="https://www.google.com/maps/place/Real+Food+Mall/@12.8194722,80.0306917,15z/data=!3m1!4b1!4m5!3m4!1s0x3a52f76c52a54f0d:0xba3d063c38c30619!8m2!3d12.8194723!4d80.0394465"
+              style="text-decoration:none;">Find Location </a></h4>
+        </div>
+      </div>
+      <!-- second section end  -->
+
+
+      <!-- third section start  -->
+      <div class="col-6 col-md-4">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.368122838116!2d80.03725781482039!3d12.819472290955838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f76c52a54f0d%3A0xba3d063c38c30619!2sReal%20Food%20Mall!5e0!3m2!1sen!2sin!4v1619029773114!5m2!1sen!2sin"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <!-- third section end -->
+    </div>
+  </section>
+
+
+
+
+  <section>
+    <div class="row">
+
+      <!-- first section start -->
+      <div class="col-6 col-md-4">
+        <div class="thumbnail">
+          <img src="./subway.jpg" class="img-responsive" alt="">
+        </div>
+      </div>
+      <!-- first section end  -->
+
+
+
+      <!-- second section start  -->
+      <div class="col-6 col-md-4">
+        <h3>subway</h3>
+
+        <div class="row">
+          <div class="col-sm-2">
+            <span class="label label-success">4.0 <span class="glyphicon glyphicon-star"></span></span>
+          </div>
+
+          <div class="col-sm-7">
+            <!-- <strong>2,421 Ratings & Reviews</strong> -->
+          </div>
+
+        </div>
+
+        <div>
+          <h4>Opening Time:-9:00AM<br>Closing Time:-9:00PM</h4>
+        </div>
+
+        <div>
+
+          <h5><span class="glyphicon glyphicon-calendar"></span><strong> Address:-</strong> Food Court, Campus 2, SRM University, SRM Nagar,
+             Kattankulathur, Tamil Nadu 603203, India </a></h5>
+
+          <h5><span class="glyphicon glyphicon-tag"></span><strong> Contact Details:<br></strong><strong> Owner
+              Name:-</strong> - <br> <strong> Mobile No.:-</strong> +91 93600 71777</h5>
+
+        </div>
+        <div>
+          <h4 style="padding-top: 40px;"><a
+              href="https://goo.gl/maps/e42QuvUWGJExzmfg6"
+              style="text-decoration:none;">Find Location </a></h4>
+        </div>
+      </div>
+      <!-- second section end  -->
+
+
+      <!-- third section start  -->
+      <div class="col-6 col-md-4">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15561.229550480397!2d80.044614!3d12.8234026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x20ac4fea8eb7213e!2sSubway!5e0!3m2!1sen!2som!4v1619635886714!5m2!1sen!2som"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <!-- third section end -->
+    </div>
+  </section>
+
+
+
+  <section>
+    <div class="row">
+
+      <!-- first section start -->
+      <div class="col-6 col-md-4">
+        <div class="thumbnail">
+          <img src="./taj.jpg" class="img-responsive" alt="">
+        </div>
+      </div>
+      <!-- first section end  -->
+
+
+
+      <!-- second section start  -->
+      <div class="col-6 col-md-4">
+        <h3>Taj Restaurant</h3>
+
+        <div class="row">
+          <div class="col-sm-2">
+            <span class="label label-success">4.6 <span class="glyphicon glyphicon-star"></span></span>
+          </div>
+
+          <div class="col-sm-7">
+            <!-- <strong>2,421 Ratings & Reviews</strong> -->
+          </div>
+
+        </div>
+
+        <div>
+          <h4>Opening Time:-11:00AM<br>Closing Time:-11:00PM</h4>
+        </div>
+
+        <div>
+
+          <h5><span class="glyphicon glyphicon-calendar"></span><strong> Address:-</strong>2G, G.S.T Main Road, Potheri, Kattankulathur, Tamil Nadu 603203, India</a></h5>
+
+          <h5><span class="glyphicon glyphicon-tag"></span><strong> Contact Details:<br></strong><strong> Owner
+              Name:-</strong> - <br> <strong> Mobile No.:-</strong> +91 90439 05076</h5>
+
+        </div>
+        <div>
+          <h4 style="padding-top: 40px;"><a
+              href="https://goo.gl/maps/tzRut7sG5PuFdkv5A"
+              style="text-decoration:none;">Find Location </a></h4>
+        </div>
+      </div>
+      <!-- second section end  -->
+
+
+      <!-- third section start  -->
+      <div class="col-6 col-md-4">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15561.443622169943!2d80.0370201!3d12.8199394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x225df40bae9f4ada!2sTaj%20Restaurant!5e0!3m2!1sen!2som!4v1619636283580!5m2!1sen!2som"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <!-- third section end -->
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
